@@ -1,0 +1,2325 @@
+@import "menu.scss";
+
+ $fuente: 'Nunito', sans-serif;
+
+/* COLORES
+
+ AMARILLO: #f6b140
+ GRIS: #424949
+
+  */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  * {
+    font-size: 62.5%;
+    /* 10px */
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+  
+  /* TABLA BENEFICIOS */
+  
+  table {
+    font-size: 7rem !important;
+  }
+  
+  ol li {
+    font-size: 1.6rem;
+  }
+  
+  /* FIN TABLA BENEFICIOS */
+  
+  .formulario {
+    font-size: 3.5rem;
+  }
+  
+  /* HEADER */
+  
+  .rowHeader {
+    margin-right: 0px;
+  }
+  
+  nav {
+    float: right;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+  
+  ul li {
+    display: inline;
+    padding-right: 20px;
+  }
+  
+  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  li a:hover {
+    color: #424949;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  /* FIN HEADER */
+  
+  /* ENCABEZADOS */
+  
+  .h2Claro {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  .h2Oscuro {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  .h3Oscuro {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .h3Claro {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  h4 {
+    color: #117864;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  /* FIN ENCABEZADOS */
+  
+  /* CONTENEDOR 1 */
+  
+  .hero {
+    background-color: #f6b140;
+    background-image: url(../imagenes/bgmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+
+  .hero__rowHeader {
+    margin: 0px;
+  }
+  
+  .hero__row {
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  
+  .hero__row__col1 {
+    padding-right: 30px;
+  }
+  
+  .hero__row__col2 {
+    text-align: center;
+  }
+  
+  .hero__row__col1__h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 6.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero__row__col1__p {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+  }
+  
+  .hero__row__col1__boton {
+    background-color: white;
+    color: #f6b140;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .hero__row__col1__boton:hover {
+    text-decoration: none;
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  /* FIN CONTENEDOR 1 */
+  
+  /* CONTENEDOR 2 CARACTERISTICAS */
+  
+  .seccion2 {
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+  }
+  
+  .seccion2__h2 {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: left;
+  }
+  
+  .seccion2__row__iconos__spanIcono__h4 {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  .seccion2__row__iconos__spanIcono__p {
+    font-family: $fuente;
+    color: #424949;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  
+  .botonSec2 {
+    background-color: #f6b140;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .botonSec2:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  
+  .modal-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .modal-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  
+  .modal-body {
+    font-size: 1.6rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .modal-footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .boton1Modal {
+    font-size: 1.4rem;
+    background-color: #f6b140;
+    color: white;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .boton2Modal {
+    font-size: 1.4rem;
+    background-color: white;
+    color: #424949;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* FIN CONTENEDOR 2 */
+  
+  /* CONTENEDOR 3 COMO FUNCIONA */
+  
+  .seccion3 {
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+    background-image: url(../imagenes/bg-sec-comofunciona.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .seccion3__h2 {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  .seccion3__p {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+  }
+  
+  .botonSec3 {
+    background-color: white;
+    color: #f6b140;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .botonSec3:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .seccion3__h3 {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .seccion3__p {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  /* FIN CONTENEDOR 3 COMO FUNCIONA */
+  
+  /* CONTENEDOR 4 DESCARGAR APP */
+  
+  .seccion4 {
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+  }
+  
+  .seccion4__h2 {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  .seccion4__p {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+  
+  .botonSec4 {
+    background-color: #f6b140;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .botonSec4:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  /* FIN CONTENEDOR 4 DESCARGAR APP */
+  
+  /* CONTENEDOR 5 CONTACTO */
+  
+  .seccion5 {
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+    background-image: url(../imagenes/bg-sec-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .h2Sec5 {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  .pSec5 {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .botonSec5 {
+    background-color: white;
+    color: #f6b140;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .botonSec5:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .labelForm {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .inputForm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .botonForm {
+    background-color: white;
+    color: #f6b140;
+    padding: 10px 20px 10px 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-top: 15px;
+    border-radius: 100px;
+  }
+  
+  /* FIN CONTENEDOR 5 CONTACTO*/
+  
+  .pBlanco {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+  
+  .pOscuro {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+  
+  .botonOscuro {
+    background-color: #f6b140;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .botonOscuro:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  /* PÁGINA CARACTERISTICAS */
+  
+  .heroCaracteristicas {
+    background-image: url(../imagenes/bg-sec-caracteristicas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+  
+  .rowCaracteristicas {
+    margin-top: 50px;
+  }
+  
+  .h1Caracteristicas {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+    margin-bottom: 20px;
+  }
+  
+  .pCaracteristicas {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-top: -20px;
+    margin-bottom: 50px;
+  }
+  
+  .botonHeroCaracteristicas {
+    background-color: white;
+    color: #f6b140;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .botonHeroCaracteristicas:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  
+  .sec2Caracteristicas {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .colSec2Caracteristicas {
+    text-align: center;
+  }
+  
+  .h4Sec2Caracteristicas {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .pSec2Caracteristicas {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+  }
+
+  .sec3Caracteristicas {
+    background-image: url(../imagenes/bg-seccion3-caracteristicas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 200px;
+  }
+
+  .sec3Caracteristicas__h3 {
+    font-family: $fuente;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .sec4Caracteristicas {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .sec4Caracteristicas__divDescargar {
+    text-align: center;
+  }
+
+  .sec4Caracteristicas__h3 {
+    font-family: $fuente;
+    font-size: 2rem;
+    color: $amarillo;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sec4Caracteristicas__boton {
+    background-color: $amarillo;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-decoration: none;
+
+  }
+
+  .sec4Caracteristicas__boton:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  
+  /* FIN PÁGINA CARACTERISTICAS */
+  
+  /* PÁGINA COMO FUNCIONA */
+  
+  .heroFunciona {
+    background-image: white;
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+
+  .rowHeroFunciona {
+    margin-top: 25px;
+  }
+  
+  .h1Funciona {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+    margin-bottom: 20px;
+  }
+  
+  .pFunciona {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  
+  .botonHeroFunciona {
+    background-color: #f6b140;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+  
+  .botonHeroFunciona:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  
+  /* FIN PÁGINA COMO FUNCIONA */
+  
+  /* PÁGINA DESCARGAR APP */
+  
+  .heroDescargar {
+    background-image: url(../imagenes/bg-sec-descargar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .col1Hero {
+    padding: 80px 50px 80px 50px;
+  }
+  
+  .h1DescargarApp {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+    margin-bottom: 20px;
+  }
+  
+  .pDescargarApp {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+  }
+  
+  .logoAppStore {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .logoGooglePlay {
+    width: 180px;
+  }
+  
+  /* FIN PÁGINA DESCARGAR APP */
+  
+  /* PÁGINA CONTACTO */
+  
+  .heroContacto {
+    background-image: url(../imagenes/bg-sec-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+
+  .heroContacto__row {
+    margin-top: 25px;
+  }
+  
+  .col1Contacto {
+    text-align: center;
+  }
+  
+  .col2Contacto {
+    text-align: center;
+  }
+  
+  .h1Contacto {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  .pContacto {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+    margin-top: -20px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  .fieldNombre {
+    display: flex;
+    text-align: center;
+    color: white;
+  }
+  
+  .fieldNombre input {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 30px;
+    border: 0;
+    border-radius: 100px;
+    margin-top: 10px;
+  }
+  
+  .fieldApellido {
+    display: flex;
+    text-align: center;
+    color: white;
+  }
+  
+  .fieldApellido input {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 30px;
+    border: 0;
+    border-radius: 100px;
+    margin-top: 10px;
+  }
+  
+  .fieldMensaje {
+    display: flex;
+    text-align: center;
+    color: white;
+  }
+  
+  .fieldMensaje textarea {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 200px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  .fieldBoton input {
+    background-color: white;
+    color: #f6b140;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .inputContacto {
+    font-family: $fuente;
+    font-size: 1.4rem;
+    color: black;
+    padding-left: 20px;
+    background-color: white;
+  }
+
+  .labelForm {
+    margin-top: 10px;
+  }
+  
+  /* FIN PÁGINA CONTACTO */
+  
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 576px) {
+  
+    /* PAGINA INICIO */
+
+    .hero {
+      background-color: #f6b140;
+      background-image: url(../imagenes/bgmap.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 10px;
+      padding-bottom: 100px;
+    }
+
+    .hero__row {
+      margin-top: 25px;
+    }
+  
+      .hero__row__col1__h1 {
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        text-align: center;
+      }
+  
+      .hero__row__col1 {
+        text-align: center;
+        padding: 0px;
+      }
+  
+      .hero__row__col1__p {
+        color: White;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 35px;
+      }
+  
+      .hero__row__col1__boton {
+        background-color: white;
+        color: #f6b140;
+        padding: 10px 20px 10px 20px;
+        border-radius: 100px;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+      }
+  
+      .hero__row__col1__boton:hover {
+        background-color: #424949;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border-radius: 100px;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+      }
+  
+      .hero__row__col2__phone {
+        width: 25vh;
+        margin-top: 50px;
+      }
+  
+      .seccion2__phone {
+        width: 25vh;
+        margin-bottom: 50px;
+      }
+  
+      .seccion2__p {
+        text-align: center;
+        color: White;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+      }
+      
+      .seccion2__h2 {
+        color: #f6b140;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-bottom: 25px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+  
+      .seccion2__row__iconos__spanIcono__h4 {
+        color: $amarillo;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 30px;
+      }
+
+      .seccion2__row__iconos__spanIcono__p {
+        font-family: $fuente;
+        color: #616A6B;
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+        margin-top: -10px;
+      }
+
+      .imgSeparador {
+        display: none;
+      }
+  
+      .seccion4__phone {
+        width: 25vh;
+        margin-bottom: 50px;
+      }
+  
+      .seccion4__h2 {
+        color: #f6b140;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        text-align: center;
+      }
+  
+      .seccion4__p {
+        color: #424949;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 35px;
+      }
+  
+      .seccion4__logoAppStoreInicio {
+        width: 12vh;
+        margin-right: 5px;
+      }
+      
+      .seccion4__logoGooglePlayInicio {
+        width: 15vh;
+      }
+  
+      .sec6Inicio {
+        background-color: white;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+  
+      .pSec6Iinicio {
+        font-family: "Nunito", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        color: #f6b140;
+      }
+  
+    /* FIN PAGINA INICIO */
+  
+    /* PAGINA CARACTERISTICAS */
+
+      .heroCaracteristicas {
+        padding-bottom: 100px;
+      }
+  
+      .rowCaracteristicas {
+        margin-top: 50px;
+      }
+  
+      .phoneCaracteristicas {
+        width: 25vh;
+        margin-bottom: 20px;
+      }
+  
+      .col2Caracteristicas {
+        text-align: center;
+      }
+  
+      .h1Caracteristicas {
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        text-align: center;
+      }
+  
+      .pCaracteristicas {
+        color: White;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 35px;
+      }
+  
+      .sec2Caracteristicas {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+  
+      .colSec2Caracteristicas {
+        text-align: center;
+        padding-bottom: 20px;
+      }
+  
+      .h4Sec2Caracteristicas {
+        color: #f6b140;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+  
+      .pSec2Caracteristicas {
+        color: #424949;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 10px 20px 20px 20px;
+      }
+
+      .sec3Caracteristicas {
+        background-image: url(../imagenes/bg-seccion3-caracteristicas.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 100px;
+        padding-top: 100px;
+      }
+
+      .sec3Caracteristicas__h3 {
+        font-family: $fuente;
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+      }
+
+      .sec4Caracteristicas {
+        text-align: center;
+      }
+
+      .sec4Caracteristicas__h3 {
+        font-family: $fuente;
+        font-size: 2.4rem;
+        color: $amarillo;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .sec4Caracteristicas__divDescargar {
+        text-align: center;
+      }
+  
+      .sec5Caracteristicas {
+        background-color: #f6b140;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+  
+      .pSec5Caracteristicas {
+        font-family: "Nunito", sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        color: white;
+      }
+  
+    /* FIN PAGINA CARACTERISTICAS */
+  
+    /* PAGINA COMO FUNCIONA */
+  
+    .col2HeroFunciona {
+      text-align: center;
+    }
+    
+    .rowHeroFunciona {
+      margin-top: 25px;
+    }
+  
+    .phoneFunciona {
+      width: 25vh;
+    }
+  
+    .h1Funciona {
+      color: #f6b140;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .pFunciona {
+      color: #424949;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+  
+    .botonHeroFunciona {
+      background-color: #f6b140;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .botonHeroFunciona:hover {
+      background-color: #424949;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+    }
+  
+    /* FIN PAGINA COMO FUNCIONA */
+  
+    /* PÁGINA DESCARGAR APP */
+  
+    .col2Descargar {
+      text-align: center;
+    }
+
+    .rowHeroDescargar { 
+      margin-top: 50px;
+    }
+  
+    .seccion4__phone{
+      width: 25vh;
+      margin-bottom: 0;
+    }
+    
+    .h1DescargarApp {
+      color: white;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .pDescargarApp {
+      color: White;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    
+    .logoAppStore {
+      width: 15vh;
+      margin-right: 10px;
+    }
+    
+    .logoGooglePlay {
+      width: 18vh;
+    }
+  
+    /* FIN PAGINA DESCARGAR APP */
+  
+    /* PAGINA CONTACTO */
+  
+    .h1Contacto {
+      color: white;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .pContacto {
+      color: White;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+  
+    .col2Contacto {
+      text-align: center;
+    }
+  
+    .fieldBoton input {
+      background-color: white;
+      color: #f6b140;
+      border: none;
+      border-radius: 20px;
+      font-size: 1.6rem;
+      padding: 10px 20px 10px 20px;
+      margin-top: 20px;
+    }
+  
+    /* FIN PAGINA CONTACTO */
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+  
+  /* PAGINA INICIO */
+  
+  .hero__row__col1__h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .hero__row__col1 {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .hero__row__col1__p {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .hero__row__col1__boton {
+    background-color: white;
+    color: #f6b140;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+
+  .hero__row__col1__boton:hover {
+    background-color: #424949;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+  }
+
+  .hero__row__col2__phone {
+    width: 25vh;
+    margin-top: 50px;
+  }
+  
+  .heroCaracInicio {
+    width: 25vh;
+    margin-bottom: 50px;
+  }
+  
+  .seccion2__row__iconos__spanIcono__h4 {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .seccion3__p {
+    text-align: center;
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+  
+  .seccion2__h2 {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .seccion2__row__iconos__spanIcono__h4 {
+    color: $amarillo;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .seccion2__row__iconos__spanIcono__p {
+    font-family: $fuente;
+    color: #616A6B;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+  
+  .seccion2__phone {
+    width: 25vh;
+    margin-bottom: 50px;
+  }
+
+  .imgSeparador {
+    display: none;
+  }
+  
+  .seccion4__phone {
+    width: 25vh;
+    margin-bottom: 50px;
+  }
+
+  .seccion4__h2 {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .seccion4__p {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .seccion4__logoAppStoreInicio {
+    width: 12vh;
+    margin-right: 5px;
+  }
+  
+  .seccion4__logoGooglePlayInicio {
+    width: 15vh;
+  }
+  
+  .sec6Inicio {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  
+  .pSec6Iinicio {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #f6b140;
+  }
+  
+  /* FIN PAGINA INICIO */
+  
+  /* PAGINA CARACTERISTICAS */
+  
+  .phoneCaracteristicas {
+    width: 25vh;
+    margin-bottom: 20px;
+  }
+  
+  .col2Caracteristicas {
+    text-align: center;
+  }
+  
+  .h1Caracteristicas {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pCaracteristicas {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  .sec2Caracteristicas {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .colSec2Caracteristicas {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .h4Sec2Caracteristicas {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .pSec2Caracteristicas {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+  }
+
+  .sec3Caracteristicas {
+    background-image: url(../imagenes/bg-seccion3-caracteristicas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .sec3Caracteristicas__h3 {
+    font-family: $fuente;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .sec4Caracteristicas {
+    text-align: center;
+  }
+
+  .sec4Caracteristicas__h3 {
+    font-family: $fuente;
+    font-size: 2.4rem;
+    color: $amarillo;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sec4Caracteristicas__divDescargar {
+    text-align: center;
+  }
+
+  .sec5Caracteristicas {
+    background-color: #f6b140;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .pSec5Caracteristicas {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: white;
+  }
+  
+    /* FIN PAGINA CARACTERISTICAS */
+  
+    /* PAGINA COMO FUNCIONA */
+  
+    .phoneFunciona {
+      width: 27vh;
+    }
+
+    .rowHeroFunciona {
+      margin-top: 25px;
+    }
+  
+    .col2HeroFunciona {
+      text-align: center;
+    }
+  
+    .h1Funciona {
+      color: #f6b140;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .pFunciona {
+      color: #424949;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+  
+    .botonHeroFunciona {
+      background-color: #f6b140;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .botonHeroFunciona:hover {
+      background-color: #424949;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+    }
+  
+    /* FIN PAGINA COMO FUNCIONA */
+  
+    /* PÁGINA DESCARGAR APP */
+  
+    .col2Descargar {
+      text-align: center;
+    }
+
+    .rowHeroDescargar { 
+      margin-top: 50px;
+    }
+  
+    .seccion4__phone{
+      width: 25vh;
+      margin-bottom: 0;
+    }
+    
+    .h1DescargarApp {
+      color: white;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .pDescargarApp {
+      color: White;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    
+    .logoAppStore {
+      width: 15vh;
+      margin-right: 10px;
+    }
+    
+    .logoGooglePlay {
+      width: 18vh;
+    }
+  
+    /* FIN PAGINA DESCARGAR APP */
+  
+    /* PAGINA CONTACTO */
+  
+      .h1Contacto {
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      
+      .pContacto {
+        color: White;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 35px;
+      }
+    
+      .col2Contacto {
+        text-align: center;
+      }
+    
+      .fieldBoton input {
+        background-color: white;
+        color: #f6b140;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.6rem;
+        padding: 10px 20px 10px 20px;
+        margin-top: 20px;
+      }
+    
+    /* FIN PAGINA CONTACTO */
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    /* PAGINA INICIO */
+  
+    .hero__row__col1__h1 {
+      color: white;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .hero__row__col1 {
+      text-align: center;
+      padding: 0px;
+    }
+  
+    .hero__row__col1__p {
+      color: White;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+  
+    .hero__row__col1__boton {
+      background-color: white;
+      color: #f6b140;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+    }
+  
+    .hero__row__col1__boton:hover {
+      background-color: #424949;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+    }
+  
+    .hero__row__col2__phone {
+      width: 25vh;
+      margin-top: 50px;
+    }
+  
+    .seccion2__row__iconos__spanIcono__h4 {
+      color: $amarillo;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 30px;
+    }
+
+    .seccion2__row__iconos__spanIcono__p {
+      font-family: $fuente;
+      color: #616A6B;
+      font-size: 1.6rem;
+      margin-bottom: 30px;
+      margin-top: -10px;
+    }
+  
+    .seccion2__phone {
+      width: 25vh;
+      margin-bottom: 50px;
+    }
+  
+    .seccion3__p {
+      text-align: center;
+      color: White;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      margin-bottom: 30px;
+    }
+    
+    .seccion2__h2 {
+      color: #f6b140;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .imgSeparador {
+      display: none;
+    }
+  
+    .seccion4__phone {
+      width: 25vh;
+      margin-bottom: 50px;
+    }
+
+    .seccion4__h2 {
+      color: #f6b140;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .seccion4__p {
+      color: #424949;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .seccion4__logoAppStoreInicio {
+      width: 12vh;
+      margin-right: 5px;
+    }
+    
+    .seccion4__logoGooglePlayInicio {
+      width: 15vh;
+    }
+  
+    .sec6Inicio {
+      background-color: white;
+      padding-top: 40px;
+      padding-bottom: 30px;
+    }
+  
+    .pSec6Iinicio {
+      font-family: "Nunito", sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      color: #f6b140;
+    }
+  
+  /* FIN PAGINA INICIO */
+  
+  /* PAGINA CARACTERISTICAS */
+  
+  .phoneCaracteristicas {
+    width: 25vh;
+    margin-bottom: 20px;
+  }
+  
+  .col2Caracteristicas {
+    text-align: center;
+  }
+  
+  .h1Caracteristicas {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pCaracteristicas {
+    color: White;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  .sec2Caracteristicas {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .colSec2Caracteristicas {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .h4Sec2Caracteristicas {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .pSec2Caracteristicas {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+  }
+
+  .sec3Caracteristicas {
+    background-image: url(../imagenes/bg-seccion3-caracteristicas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .sec3Caracteristicas__h3 {
+    font-family: $fuente;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .sec4Caracteristicas {
+    text-align: center;
+  }
+
+  .sec4Caracteristicas__h3 {
+    font-family: $fuente;
+    font-size: 2.4rem;
+    color: $amarillo;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sec4Caracteristicas__divDescargar {
+    text-align: center;
+  }
+
+  .sec5Caracteristicas {
+    background-color: #f6b140;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .pSec5Caracteristicas {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: white;
+  }
+  
+    /* FIN PAGINA CARACTERISTICAS */
+  
+    /* PAGINA COMO FUNCIONA */
+  
+    .phoneFunciona {
+      width: 50vh;
+    }
+
+    .rowHeroFunciona {
+      margin-top: 25px;
+    }
+  
+    .col2HeroFunciona {
+      text-align: left;
+    }
+  
+    .h1Funciona {
+      color: #f6b140;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 6rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: left;
+    }
+  
+    .pFunciona {
+      color: #424949;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+  
+    .botonHeroFunciona {
+      background-color: #f6b140;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .botonHeroFunciona:hover {
+      background-color: #424949;
+      color: white;
+      padding: 10px 20px 10px 20px;
+      border-radius: 100px;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+    }
+  
+    /* FIN PAGINA COMO FUNCIONA */
+  
+    /* PÁGINA DESCARGAR APP */
+    
+      .seccion4__phone {
+        width: 32vh;
+      }
+      
+      .rowHeroDescargar { 
+        margin-top: 50px;
+      }
+      
+      .h1DescargarApp {
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 6rem;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        text-align: left;
+      }
+      
+      .pDescargarApp {
+        color: White;
+        font-family: "Nunito", sans-serif;
+        font-weight: regular;
+        font-size: 1.6rem;
+        text-align: left;
+        margin-bottom: 35px;
+      }
+      
+      .logoAppStore {
+        width: 12vh;
+        margin-right: 5px;
+      }
+      
+      .logoGooglePlay {
+        width: 15vh;
+      }
+    
+  /* FIN PAGINA DESCARGAR APP */
+  
+    /* PAGINA CONTACTO */
+  
+    .h1Contacto {
+      color: white;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .pContacto {
+      color: White;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+  
+    .col2Contacto {
+      text-align: center;
+    }
+  
+    .fieldBoton input {
+      background-color: white;
+      color: #f6b140;
+      border: none;
+      border-radius: 20px;
+      font-size: 1.6rem;
+      padding: 10px 20px 10px 20px;
+      margin-top: 20px;
+    }
+  
+    /* FIN PAGINA CONTACTO */
+  }
+  
+  @media (min-width: 992px) {
+  
+    /* PAGINA INICIO */
+  
+    .heroPhoneInicio {
+      width: 35vh;
+    }
+  
+    .seccion2__phone {
+      width: 35vh;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  
+    .seccion3__p {
+      text-align: center;
+      color: White;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      margin-bottom: 30px;
+    }
+    
+    .seccion2__h2 {
+      color: #f6b140;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 5rem;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .seccion2__col2 {
+      text-align: left;
+    }
+
+    .imgSeparador {
+      width: 15%;
+    }
+  
+    .seccion2__row__iconos {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .seccion2__row__iconos__spanIcono__h4 {
+      color: $amarillo;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.8rem;
+      text-align: left;
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+
+    .seccion2__row__iconos__spanIcono__p {
+      font-family: $fuente;
+      color: #616A6B;
+      font-size: 1.6rem;
+      margin-bottom: 0px;
+      margin-top: -10px;
+      text-align: left;
+    }
+  
+    .spanParrafoIcono {
+      margin-left: 20px;
+    }
+
+    .seccion2__row__iconos__spanIcono__iconoCaracteristicas {
+      display: none;
+    }
+  
+    .phoneDescargarInicio {
+      width: 25vh;
+      margin-bottom: 50px;
+    }
+  
+    .h2Sec4 {
+      color: #f6b140;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: 25px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .pSec4 {
+      color: #424949;
+      font-family: "Nunito", sans-serif;
+      font-weight: regular;
+      font-size: 1.6rem;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+  
+    .logoAppStore {
+      width: 17vh;
+      margin-right: 5px;
+    }
+    
+    .logoGooglePlay {
+      width: 20vh;
+    }
+  
+    .sec6Inicio {
+      background-color: white;
+      padding-top: 40px;
+      padding-bottom: 30px;
+    }
+  
+    .pSec6Iinicio {
+      font-family: "Nunito", sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      text-align: center;
+      color: #f6b140;
+    }
+  
+  /* FIN PAGINA INICIO */
+  
+  /* PÁGINA CARACTERISTICAS */
+
+  .sec2Caracteristicas {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .colSec2Caracteristicas {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .h4Sec2Caracteristicas {
+    color: #f6b140;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .pSec2Caracteristicas {
+    color: #424949;
+    font-family: "Nunito", sans-serif;
+    font-weight: regular;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+  }
+
+  .sec3Caracteristicas {
+    background-image: url(../imagenes/bg-seccion3-caracteristicas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .sec3Caracteristicas__h3 {
+    font-family: $fuente;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .sec4Caracteristicas {
+    text-align: center;
+  }
+
+  .sec4Caracteristicas__h3 {
+    font-family: $fuente;
+    font-size: 2.4rem;
+    color: $amarillo;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sec4Caracteristicas__divDescargar {
+    text-align: center;
+  }
+
+  .sec5Caracteristicas {
+    background-color: #f6b140;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .pSec5Caracteristicas {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .sec5Caracteristicas {
+    background-color: #f6b140;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .pSec5Caracteristicas {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: white;
+  }
+  
+  /* FIN PÁGINA CARACTERISTICAS */
+  
+  /* PÁGINA DESCARGAR APP */
+  
+  .seccion4__phone {
+    width: 32vh;
+    margin-bottom: 50px;
+  }
+  
+  .rowHeroDescargar { 
+    margin-top: 50px;
+  }
+
+  .seccion4__logoAppStoreInicio {
+    width: 12vh;
+    margin-right: 5px;
+  }
+  
+  .seccion4__logoGooglePlayInicio {
+    width: 15vh;
+  }
+  
+  /* FIN PAGINA DESCARGAR APP */
+  
+  /* PAGINA CONTACTO */
+  
+  .fieldBoton input {
+    background-color: white;
+    color: #f6b140;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+  }
+  
+  /* FIN PAGINA CONTACTO */
+  }

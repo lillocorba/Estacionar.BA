@@ -1,0 +1,216 @@
+$negro: #1B1B1B;
+$amarillo: #f6b140;
+$gris: #707070;
+$fuente: 'Source Sans Pro', sans-serif;
+
+
+/* BTN BURGER BLANCO */
+
+.menu-btn {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.menu-btn__burger {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+} 
+
+.menu-btn__burger::before, .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-10px);
+}
+
+.menu-btn__burger::after {
+    transform: translateY(10px);
+}
+
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/* FIN BTN BURGER BLANCO */
+
+/* BTN BURGER AMARILLO */
+
+.menu-btn__amarillo {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.menu-btn__burger__amarillo {
+    width: 25px;
+    height: 3px;
+    background-color: $amarillo;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+} 
+
+.menu-btn__burger__amarillo::before, .menu-btn__burger__amarillo::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: $amarillo;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burger__amarillo::before {
+    transform: translateY(-10px);
+}
+
+.menu-btn__burger__amarillo::after {
+    transform: translateY(10px);
+}
+
+.menu-btn__amarillo.open .menu-btn__burger__amarillo {
+    transform: translateX(-50px);
+    background: transparent;
+}
+
+.menu-btn__amarillo.open .menu-btn__burger__amarillo::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn__amarillo.open .menu-btn__burger__amarillo::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.navbar-dark .navbar-toggler{
+    border: none;
+}
+
+.nav-link {
+    font-family: $fuente;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.navbar-nav {
+    background-color: none;
+}
+
+.buttonset {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.divLogo {
+    text-align: center;
+}
+
+.divEnlaces {
+    text-align: center;
+}
+
+.tituloMenu {
+    font-family: $fuente;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.separadorMenu {
+    width: 70%;
+    border: solid 1px #F8C471;
+}
+
+/* General styles for all menus */
+
+.cbp-spmenu {
+    background-color: $amarillo;
+    padding-top: 50px;
+    padding-left: 20px;
+	position: fixed;
+}
+
+.cbp-spmenu a {
+	display: block;
+	color: white;
+    font-size: 1.6rem;
+    font-family: $fuente;
+	font-weight: 500;
+}
+
+.cbp-spmenu a:hover {
+    color: $negro;
+    text-decoration: none;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	padding: 1em;
+}
+
+.cbp-spmenu-right {
+	right: -240px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
