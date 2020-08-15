@@ -934,7 +934,10 @@ fieldset {
     width: 25vh;
     margin-top: 50px; }
   .seccion2__phone {
+<<<<<<< HEAD
     width: 25%;
+=======
+>>>>>>> b583dce072fc1ee87d97bb456696352ee553eead
     margin-bottom: 50px; }
   .seccion2__p {
     text-align: center;
@@ -1176,7 +1179,7 @@ fieldset {
     font-size: 1.6rem;
     padding: 10px 20px 10px 20px;
     margin-top: 20px; }
-  /* FIN PAGINA CONTACTO */ }
+  /* FIN PAGINA CONTACTO */
 
 @media (min-width: 576px) and (max-width: 767px) {
   /* PAGINA INICIO */
