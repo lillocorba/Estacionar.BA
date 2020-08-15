@@ -934,11 +934,7 @@ fieldset {
     width: 25vh;
     margin-top: 50px; }
   .seccion2__phone {
-<<<<<<< HEAD
-    width: 25%;
-=======
->>>>>>> b583dce072fc1ee87d97bb456696352ee553eead
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   .seccion2__p {
     text-align: center;
     color: White;
@@ -970,9 +966,6 @@ fieldset {
     margin-top: -10px; }
   .imgSeparador {
     display: none; }
-  .seccion4__phone {
-    width: 25vh;
-    margin-bottom: 50px; }
   .seccion4__h2 {
     color: #f6b140;
     font-family: "Nunito", sans-serif;
@@ -1130,8 +1123,7 @@ fieldset {
   .rowHeroDescargar {
     margin-top: 50px; }
   .seccion4__phone {
-    width: 25vh;
-    margin-bottom: 0; }
+    margin-bottom: 30px; }
   .h1DescargarApp {
     color: white;
     font-family: "Nunito", sans-serif;
@@ -1179,7 +1171,7 @@ fieldset {
     font-size: 1.6rem;
     padding: 10px 20px 10px 20px;
     margin-top: 20px; }
-  /* FIN PAGINA CONTACTO */
+  /* FIN PAGINA CONTACTO */ }
 
 @media (min-width: 576px) and (max-width: 767px) {
   /* PAGINA INICIO */
@@ -1266,7 +1258,6 @@ fieldset {
   .imgSeparador {
     display: none; }
   .seccion4__phone {
-    width: 25vh;
     margin-bottom: 50px; }
   .seccion4__h2 {
     color: #f6b140;
@@ -1421,7 +1412,6 @@ fieldset {
   .rowHeroDescargar {
     margin-top: 50px; }
   .seccion4__phone {
-    width: 25vh;
     margin-bottom: 0; }
   .h1DescargarApp {
     color: white;
@@ -1546,7 +1536,6 @@ fieldset {
   .imgSeparador {
     display: none; }
   .seccion4__phone {
-    width: 25vh;
     margin-bottom: 50px; }
   .seccion4__h2 {
     color: #f6b140;
