@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    overflow-x: hidden;
   }
   
   * {
@@ -825,7 +826,7 @@
     border-radius: 20px;
     margin-top: 10px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
   }
   
   .fieldBoton input {
@@ -989,6 +990,10 @@
       
       .seccion4__logoGooglePlayInicio {
         width: 15vh;
+      }
+
+      .seccion5__form {
+        text-align: center;
       }
   
       .sec6Inicio {
