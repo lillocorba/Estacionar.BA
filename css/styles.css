@@ -1085,7 +1085,8 @@ fieldset {
   .rowHeroFunciona {
     margin-top: 25px; }
   .phoneFunciona {
-    width: 25vh; }
+    height: 400px;
+    width: auto; }
   .h1Funciona {
     color: #f6b140;
     font-family: "Nunito", sans-serif;
@@ -1370,7 +1371,8 @@ fieldset {
   /* FIN PAGINA CARACTERISTICAS */
   /* PAGINA COMO FUNCIONA */
   .phoneFunciona {
-    width: 27vh; }
+    height: 450px;
+    width: auto; }
   .rowHeroFunciona {
     margin-top: 25px; }
   .col2HeroFunciona {
@@ -1648,7 +1650,8 @@ fieldset {
   /* FIN PAGINA CARACTERISTICAS */
   /* PAGINA COMO FUNCIONA */
   .phoneFunciona {
-    width: 50vh; }
+    height: 500px;
+    width: auto; }
   .rowHeroFunciona {
     margin-top: 25px; }
   .col2HeroFunciona {
