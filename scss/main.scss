@@ -840,8 +840,16 @@
   .inputContacto {
     font-family: $fuente;
     font-size: 1.4rem;
-    color: #F8F9F9;
+    color: #424949;
     padding-left: 20px;
+    background-color: white;
+  }
+
+  .inputContacto::placeholder {
+    font-family: $fuente;
+    font-size: 1.4rem;
+    color: #CCD1D1;
+    padding-left: 0px;
     background-color: white;
   }
 
