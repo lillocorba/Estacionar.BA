@@ -935,6 +935,8 @@ fieldset {
     width: 25vh;
     margin-top: 50px; }
   .seccion2__phone {
+    height: 400px;
+    width: auto;
     margin-bottom: 30px; }
   .seccion2__p {
     text-align: center;
@@ -1257,7 +1259,8 @@ fieldset {
     margin-bottom: 30px;
     margin-top: -10px; }
   .seccion2__phone {
-    width: 25%;
+    height: 450px;
+    width: auto;
     margin-bottom: 50px; }
   .imgSeparador {
     display: none; }
@@ -1521,7 +1524,8 @@ fieldset {
     margin-bottom: 30px;
     margin-top: -10px; }
   .seccion2__phone {
-    width: 25%;
+    height: 450px;
+    width: auto;
     margin-bottom: 50px; }
   .seccion3__p {
     text-align: center;
@@ -1749,7 +1753,8 @@ fieldset {
   .heroPhoneInicio {
     width: 35vh; }
   .seccion2__phone {
-    width: 35vh;
+    height: 500px;
+    width: auto;
     margin-top: 30px;
     margin-bottom: 50px; }
   .seccion3__p {
