@@ -1129,6 +1129,8 @@ fieldset {
   .rowHeroDescargar {
     margin-top: 50px; }
   .seccion4__phone {
+    height: 400px;
+    width: auto;
     margin-bottom: 30px; }
   .h1DescargarApp {
     color: white;
@@ -1265,6 +1267,8 @@ fieldset {
   .imgSeparador {
     display: none; }
   .seccion4__phone {
+    height: 450px;
+    width: auto;
     margin-bottom: 50px; }
   .seccion4__h2 {
     color: #f6b140;
@@ -1420,6 +1424,8 @@ fieldset {
   .rowHeroDescargar {
     margin-top: 50px; }
   .seccion4__phone {
+    height: 450px;
+    width: auto;
     margin-bottom: 0; }
   .h1DescargarApp {
     color: white;
@@ -1545,6 +1551,8 @@ fieldset {
   .imgSeparador {
     display: none; }
   .seccion4__phone {
+    height: 450px;
+    width: auto;
     margin-bottom: 50px; }
   .seccion4__h2 {
     color: #f6b140;
@@ -1696,7 +1704,8 @@ fieldset {
   /* FIN PAGINA COMO FUNCIONA */
   /* PÁGINA DESCARGAR APP */
   .seccion4__phone {
-    width: 32vh; }
+    height: 500px;
+    width: auto; }
   .rowHeroDescargar {
     margin-top: 50px; }
   .h1DescargarApp {
@@ -1903,7 +1912,8 @@ fieldset {
   /* FIN PÁGINA CARACTERISTICAS */
   /* PÁGINA DESCARGAR APP */
   .seccion4__phone {
-    width: 32vh;
+    height: 500px;
+    width: auto;
     margin-bottom: 50px; }
   .rowHeroDescargar {
     margin-top: 50px; }
